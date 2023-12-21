@@ -85,7 +85,7 @@ body {
 }
 
 .picture img {
-	width: 430px;
+	width: 100%;
 	height: auto;
 
 }
@@ -297,7 +297,7 @@ input[type="submit"] {
 	}
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) {
 	#about{
 		flex-direction: column;
 
@@ -354,6 +354,11 @@ input[type="submit"] {
 		right: 0;
 		z-index: -1;
 	}
+	.form-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 @media all and (max-width: 650px) {
@@ -369,6 +374,16 @@ input[type="submit"] {
 		flex: 1;
 		padding-block: 1em;
 		text-align: center;
+	}
+	.picture {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.picture img {
+		width: 100%;
+		height: auto;
+		margin: 0 0 0 50px;
 	}
 	.picture.left::before, .picture.right::before {
 		height: 150px;
@@ -388,6 +403,15 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+	#camera-img {
+		width: 90%;
+		height: auto;
+		margin: 0 5px 0 0;
+	}
+	.adresses {
+		display: flex;
+		flex-direction: column;
 	}
 }
  
