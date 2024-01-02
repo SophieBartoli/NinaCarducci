@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<meta charset="UTF-8">
 	<!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
 	<script type="application/ld+json">
 		{
@@ -31,7 +32,6 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
@@ -98,7 +98,7 @@
 		</article>
 		<article id="about">
 			<section class="picture left">
-				<img id="nina-img"src="./assets/images/nina.webp" alt="Photo portrait de la photographe"/>
+				<img id="nina-img" src="./assets/images/nina.webp" alt="Photo portrait de la photographe"/>
 			</section>
 			<section id="about-me">
 				<h3 class="about-me__introduction"><br><br>Devenir photographe professionnelle était pour moi une évidence. Comme si j’y étais prédestiné.<br> Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3><br>
@@ -180,8 +180,7 @@
 				<div class="form-container">
 					<h2>Une question ? Une demande de devis ?</h2>
 					<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures. Pour une réponse plus rapide, vous pouvez préciser le type d'évènement, le lieu et la date dans votre message.</p>
-					</p>
-					<form action="" method="post">
+					<form method="post">
 						<label for="nom">Nom</label>
 						<input type="text" name="nom" id="nom">
 						<label for="email">Email</label>
@@ -198,7 +197,7 @@
 		</article>
 	</main>
 	<footer>
-		<section class="adresses">
+		<div class="adresses">
 			<p class="informations"> <b>Numéro de téléphone</b>:<br> 
 			05.56.67.78.89<br>
 			Du Lundi au Vendredi de 10h à 19h</p>
@@ -206,7 +205,7 @@
 			68 avenue Alsace-Lorraine<br>
 			33200<br>
 			Bordeaux</adress>
-		</section>
+		</div>
 	</footer>
 </body>
 </html>
